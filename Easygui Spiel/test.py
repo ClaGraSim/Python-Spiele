@@ -11,7 +11,7 @@ easygui.msgbox("Hallo Spieler!","Titel","Weiter","archerf.gif")
 while True:
     waffe=easygui.buttonbox("Wähle eine Waffe.","Waffe wählen",weapons)
     if waffe=="Buch":
-        easygui.msgbox("Option nicht verfügbar. Wie ist das bloß hier rein geraten?",
+        easygui.msgbox("Option nicht verfügbar. Wie ist das bloß hier hinein geraten?",
                        "Option nicht verfügbar","Weiter","book.gif")
         continue
     else:
